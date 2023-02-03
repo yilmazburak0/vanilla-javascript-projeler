@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>to do list</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1>To Do List</h1>
+            <div class="buttons">
+                <button class="btn btn-primary active" id="show-all">Hepsi</button>                
+                <button class="btn btn-primary" id="show-done">Tamamlananlar</button>
+                <button class="btn btn-primary" id="show-gonna-do">Yapilacaklar</button>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" id="txtTaskName">
+                <button class="btn btn-primary" id="btn-add">ekle</button>
+            </div>
+        </div>
+        <div class="card-body">
+            <ul id="to-do-list"> 
+                <!-- <li class="to-do-list-item">
+                    <input type="checkbox" id="1">
+                    <label for="1" >manava git</label>
+                    <button type="submit" class="btn btn-secondary" id="btnDeleteTask">Sil</button>
+                    
+                </li>     -->
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="task.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
