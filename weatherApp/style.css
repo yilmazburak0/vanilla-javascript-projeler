@@ -75,3 +75,11 @@ body {
     margin-bottom: 10px;
     text-shadow: 1px 5px rgba(0, 0, 0, .8);
 }
+
+/* error */
+
+.error{
+    color: #F55050;
+    font-size: 24px;
+    font-weight:600;
+}
